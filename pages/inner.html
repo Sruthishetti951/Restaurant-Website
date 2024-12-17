@@ -1,0 +1,261 @@
+<!-- Name: Sruthi Kamisetti
+StudentId:8984388 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner</title>
+    <link rel="icon" type="image/x-icon" href="./../images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./../styles/common.css">
+    <link rel="stylesheet" href="./../styles/inner.css">
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <div>
+                <a href="./index.html">
+                    <img src="./../images/logo.png" alt="logo" height="50px">
+                </a>
+            </div>
+            <div class="tagline">
+                <span class="color-white">SK's Restaurant- Sruthi Kamisetti - shruthishetti.1995@gmail.com</span>
+            </div>
+        </header>
+        <!-- nav -->
+        <nav>
+            <ul>
+                <li><a href="./../index.html" class="active">Home</a></li>
+                <li><a href="./../pages/inner.html" aria-haspopup="true" aria-expanded="false">Inner</a>
+                    <ul>
+                        <li><a href="./../pages/inner.html#video" tabindex="-1">Video</a></li>
+                        <li><a href="./../pages/inner.html#table" tabindex="-1">Statistics</a></li>
+                    </ul>
+                </li>
+                <li><a href="./../pages/about.html">About</a></li>
+                <li><a href="./../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- main -->
+        <main>
+            <div class="title-img-div">
+                <!-- https://www.pexels.com/photo/picnic-1956974/ -->
+                <img src="./../images/innnerpageImage.jpg" alt="" class="title-img" height="600px">
+                <div class="title-div">
+                    <h1 class="title">Health Through Nutrition</h1>
+                </div>
+            </div>
+            <!-- video content div  -->
+            <div class="video-content-div" id="video">
+                <div>
+                    <p class="headings">Clay Pot Cooking</p>
+                    <p>
+                        Experience the rich and authentic flavors of food cooked in a clay pot. This traditional method
+                        enhances the taste and aroma of dishes, bringing out the natural essence of the ingredients
+                        while preserving their nutritional value.
+                    </p>
+                    <p>
+                        Cooking in a clay pot is known for its numerous health benefits. The porous nature of the clay
+                        allows moisture and heat to circulate evenly, resulting in tender and flavorful dishes without
+                        the need for excess oil or fats.
+                    </p>
+                    <p>
+                        The calorie content of food cooked in a clay pot depends on the ingredients used. Generally,
+                        this cooking method can help reduce the overall calorie count by minimizing the need for added
+                        fats and oils..</p>
+                </div>
+                <div>
+                    <!-- https://www.pexels.com/photo/healthy-east-dish-served-on-wooden-cutting-board-in-cafe-4551567/ -->
+                    <video controls width="600px" preload="auto" poster="./../images/claypot.jpg" height="400px"
+                        autoplay>
+                        <!-- https://www.pexels.com/video/close-up-footage-of-a-hot-dish-on-a-clay-pot-3015488/ -->
+                        <source src="./../videos/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <!-- table  -->
+            <div id="table">
+                <p class="headings heading-text-align-center">Sucess Journey</p>
+                <div class="table-div">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Categories</th>
+                                <th scope="col">2021</th>
+                                <th scope="col">2022</th>
+                                <th scope="col">2023</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Customers</td>
+                                <td>2000</td>
+                                <td>10000</td>
+                                <td>250000</td>
+                            </tr>
+                            <tr>
+                                <td>Franchise</td>
+                                <td>1</td>
+                                <td>3</td>
+                                <td>7</td>
+                            </tr>
+                            <tr>
+                                <td>Stores</td>
+                                <td>1</td>
+                                <td>10</td>
+                                <td>20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="form">
+                <div class="para grid-container-heading headings">
+                    <p class="grid-container-heading headings">Discover the Benefits of Healthy Cooking</p>
+                </div>
+                <form class="grid-container">
+                    <div class="grid">
+                        <fieldset>
+                            <legend>Share Your Experience</legend>
+                            <div>
+                                <div class="field">
+                                    <label for="formName">Name:</label>
+                                    <input type="text" name="formName" id="formName" placeholder="Enter Your Name">
+                                </div>
+                                <div class="field">
+                                    <label for="formEmail">Email:</label>
+                                    <input type="text" name="formEmail" id="formEmail" placeholder="Enter Your Email">
+                                </div>
+                                <div class="field">
+                                    <label for="cookingStyle">Choose Cooking Style</label>
+                                    <select name="cookingStyle" id="cookingStyle">
+                                        <optgroup label="Traditional Styles">
+                                            <option value="">Please Select</option>
+                                            <option value="classic">Classic</option>
+                                            <option value="comfortFood">Comfort Food</option>
+                                            <option value="homeCooked">Home-Cooked</option>
+                                        </optgroup>
+                                        <optgroup label="Modern Styles">
+                                            <option value="fusion">Fusion</option>
+                                            <option value="gourmet">Gourmet</option>
+                                            <option value="healthConscious">Health-Conscious</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="field">
+                                    <div>Which benefits of healthy cooking do you find most important? (Select all that
+                                        apply):
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="nutrition" name="nutrition">
+                                        <label for="nutrition">Nutritional Value</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="taste" name="taste">
+                                        <label for="taste">Taste and Flavor</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="easeOfPreparation" name="easeOfPreparation">
+                                        <label for="easeOfPreparation">Ease of Preparation
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label>
+                                        <div>How frequently do you prepare healthy meals?</div>
+                                        <input type="radio" id="daily" name="daily">
+                                        Daily
+                                    </label>
+                                    <label><input type="radio" name="daily" id="Weekly">
+                                        Weekly</label>
+                                </div>
+                                <div class="field">
+                                    <div>
+                                        <label for="feedback">Feedback:</label>
+                                    </div>
+                                    <textarea cols="80" rows="10" id="feedback" name="feedback"></textarea>
+                                </div>
+                                <div class="buttons-flex">
+                                    <div>
+                                        <input type="reset" class="button">
+                                    </div>
+                                    <div class="margin-left">
+                                        <input type="submit" class="button">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+    
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-links">
+            <div>
+                <div class="footer-menu-items">Social</div>
+                <div class="footer-inner-grid">
+                    <div>
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="footer-menu-items">Information</div>
+                <div class="footer-inner-grid">
+                    <div>
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <a href="./../index.html">Home</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        <a href="./about.html">About Us</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-address-card fafa-address" aria-hidden="true"></i>
+                        <a href="./contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="footer-menu-items">Contact</div>
+                <div class="footer-inner-grid">
+                    <div>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="https://www.gmail.com/" target="_blank">info@foodexpress.com</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        <a href="./contact.html">647-611-1011</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <a href="https://www.google.ca/maps" target="_blank">255 London Street</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr"></div>
+        <div class="para footer-copyrights">
+            &copy; Copyright- Sruthi Kamisetti - sruthishetti.1995@gmail.com
+        </div>
+    </footer>
+    </div>
+
+</body>
+</html>

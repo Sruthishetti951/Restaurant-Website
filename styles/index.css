@@ -1,0 +1,124 @@
+/* Name: Sruthi Kamisetti
+StudentId:8984388 */
+
+.img-box {
+    margin-bottom: 10px;
+}
+.main-img{
+    height: 650px;
+    width: 100%;
+}
+
+.special-div {
+    margin-bottom: 10px;
+}
+
+.special-heading {
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+}
+
+.quote-div {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.clipPath-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 20px;
+    column-gap: 20px;
+}
+
+.clipPath-section div {
+    justify-self: center;
+    align-self: center;
+}
+
+.clipPath-image1 {
+    clip-path: polygon(25% 0%, 58% 0, 100% 20%, 84% 100%, 15% 99%, 0 18%);;
+    height: 300px;
+    width: 400px;
+}
+
+.clipPath-image2 {
+    clip-path:  polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);;
+    height: 350px;
+    width: 400px;
+    justify-self: center;
+    align-self: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    margin-bottom: 10px;
+    column-gap: 20px;
+}
+
+.card {
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px #80808075;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-img {
+    height: 230px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card-button{
+    background-color: #413f3d;
+    padding: 10px 20px;
+    width: 68px;
+    font-size: 15px;
+   border-radius: 5px; 
+   text-decoration: none;
+    color: white !important;  
+}
+
+.button-position{
+    position: absolute;
+    bottom: 20px;
+}
+
+.padding-bottom-30px{
+    padding-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header {
+        color: blue;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    .tagline {
+        font-size: 20px;
+    }
+
+    .clipPath-section {
+        grid-template-columns: 1fr;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .card-img {
+        height: 190px;
+    }
+}
+
